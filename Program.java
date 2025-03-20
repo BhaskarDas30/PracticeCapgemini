@@ -1,11 +1,7 @@
 public class Program {
 public static void main(String args[]) {
-int a=10;
-int b=20;
-a=a+b;
-b=a-b;
-a=a-b;
-System.out.println(a);
-System.out.println(b);
+	for(int i=10;i>=1;i--) {
+		System.out.println(i);
+	}
 }
 }
